@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class File_1 {
+public class File_2 {
     public static void main(String[] args) {
 
         //Code to create new file
