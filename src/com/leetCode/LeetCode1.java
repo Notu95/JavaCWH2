@@ -15,8 +15,8 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 public class LeetCode1{
     public static void main(String[] args) {
-        int[] nums = {6,3,0,2,4,1,5};
-        int target=6;
+        int[] nums = {0,3,0,2,4,1,5};
+        int target=0;
 
 //        List<int[]> list=Arrays.asList(twoSum(nums,target));
         int[] result=twoSum(nums,target);
@@ -29,9 +29,9 @@ public class LeetCode1{
         Map<Integer,Integer> map1 =new HashMap<>();
         int index=0;
         for(int i:nums){
-            if(!(map1.containsKey(nums[index]))) {
+//            if(!(map1.containsKey(nums[index]))) {
                 map1.put(index, nums[index]);
-            }
+//            }
             index++;
         }
         Set<Integer> KeySet=map1.keySet();
